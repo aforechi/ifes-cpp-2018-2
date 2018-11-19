@@ -9,8 +9,7 @@ class DivideByZeroException : public runtime_error
 {
 public:
    // construtor especifica a mensagem de erro padrão
-   DivideByZeroException::DivideByZeroException()
-      : runtime_error( "attempted to divide by zero" ) {}
+   DivideByZeroException() : runtime_error( "attempted to divide by zero" ) {}
 }; // fim da classe DivideByZeroException
 
 
