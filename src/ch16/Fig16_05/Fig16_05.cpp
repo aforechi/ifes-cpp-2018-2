@@ -5,14 +5,14 @@
 using std::cerr;
 using std::cout;
 
-int main()
+int Fig16_05()
 {
    double *ptr[ 50 ];
 
    // aloca memória para ptr
    for ( int i = 0; i < 50; i++ ) 
    {
-      ptr[ i ] = new double[ 50000000 ];
+      ptr[ i ] = new double[ 5000000000000 ];
 
       if ( ptr[ i ] == 0 ) // fez new falhar na alocação de memória
       {
@@ -20,7 +20,7 @@ int main()
          break;
       } // fim do if
       else // alocação bem-sucedida de memória
-         cout << "Allocated 50000000 doubles in ptr[ " << i << " ]\n";
+         cout << "Allocated 5000000000000 doubles in ptr[ " << i << " ]\n";
    } // fim do for
 
    return 0;

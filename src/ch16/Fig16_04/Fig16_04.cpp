@@ -31,7 +31,7 @@ void function1() throw ( runtime_error )
 } // fim de function1
 
 // demonstra o desempilhamento
-int main()
+int Fig16_04()
 {
    // invoca function1
    try 

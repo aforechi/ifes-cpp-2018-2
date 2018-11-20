@@ -9,7 +9,7 @@ using std::endl;
 #include <new> // operador new padrão
 using std::bad_alloc;               
 
-int main()
+int Fig16_06()
 {
    double *ptr[ 50 ];
    
@@ -19,8 +19,8 @@ int main()
       // aloca memória para ptr[i]; new lança bad_alloc em caso de falha
       for ( int i = 0; i < 50; i++ ) 
       {
-         ptr[ i ] = new double[ 50000000 ]; // pode lançar exceção
-         cout << "Allocated 50000000 doubles in ptr[ " << i << " ]\n";
+         ptr[ i ] = new double[ 5000000000000 ]; // pode lançar exceção
+         cout << "Allocated 5000000000000 doubles in ptr[ " << i << " ]\n";
       } // fim do for
    } // fim do try
 

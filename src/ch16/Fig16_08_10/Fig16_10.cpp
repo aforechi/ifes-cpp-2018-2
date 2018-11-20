@@ -8,9 +8,10 @@ using std::endl;
 using std::auto_ptr; // Definição da classe auto_ptr
 
 #include "Integer.h"
+#include "Integer.cpp"
 
 // utiliza auto_ptr para manipular o objeto Integer
-int main()
+int Fig16_10()
 {
    cout << "Creating an auto_ptr object that points to an Integer\n";
 

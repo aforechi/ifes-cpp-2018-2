@@ -20,7 +20,7 @@ double quotient( int numerator, int denominator )
    return static_cast< double >( numerator ) / denominator;
 } // fim da função quotient
 
-int main()
+int Fig16_02()
 {
    int number1; // numerador especificado pelo usuário
    int number2; // denominador especificado pelo usuário

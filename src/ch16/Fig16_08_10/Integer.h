@@ -1,6 +1,9 @@
 // Fig. 16.8: Integer.h
 // Definição da classe Integer.
 
+#ifndef INTEGER_H
+#define INTEGER_H
+
 class Integer 
 {
 public:
@@ -12,7 +15,7 @@ private:
    int value;
 }; // fim da classe Integer
 
-
+#endif
 /**************************************************************************
  * (C) Copyright 1992-2005 Deitel & Associates, Inc. e                    *
  * Pearson Education, Inc. Todos os direitos reservados                   *

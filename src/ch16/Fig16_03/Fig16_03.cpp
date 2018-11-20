@@ -26,7 +26,7 @@ void throwException()
    cout << "This also should not print\n";
 } // fim da função throwException
 
-int main()
+int Fig16_03()
 {
    // lança a exceção
    try 

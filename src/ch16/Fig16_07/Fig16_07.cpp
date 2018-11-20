@@ -18,7 +18,7 @@ void customNewHandler()
 } // fim da função customNewHandler     
 
 // utilizando set_new_handler para tratar alocação de memória mal sucedida
-int main()
+int Fig16_07()
 {
    double *ptr[ 50 ];
 
@@ -30,8 +30,8 @@ int main()
    // chamado na falha na alocação de memória
    for ( int i = 0; i < 50; i++ )
    {
-      ptr[ i ] = new double[ 50000000 ]; // pode lançar exceção
-      cout << "Allocated 50000000 doubles in ptr[ " << i << " ]\n";
+      ptr[ i ] = new double[ 500000000 ]; // pode lançar exceção
+      cout << "Allocated 5000000000 doubles in ptr[ " << i << " ]\n";
    } // fim do for
 
    return 0;
