@@ -3,7 +3,6 @@ channels:
   - QuantStack
   - conda-forge
 dependencies:
-  - xeus-cling=0.4.2
-  - xwidgets=0.11.0
+  - xeus-cling
+  - xwidgets
   - notebook
-  - widgetsnbextension >=3.0.0
