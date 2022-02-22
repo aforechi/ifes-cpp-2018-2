@@ -1,0 +1,3 @@
+#!/bin/bash
+work="$PWD"
+rm prova-0*.ipynb
